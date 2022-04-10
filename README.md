@@ -1,1 +1,1 @@
-![barbearia-alura](https://user-images.githubusercontent.com/69660117/162592032-2718e551-401a-4aa8-9ea6-437e22a9256a.jpg)
+https://user-images.githubusercontent.com/69660117/162642384-48b93bdd-5d10-4aea-8f5d-99413ca6350b.mp4
