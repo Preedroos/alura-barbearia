@@ -1,0 +1,21 @@
+footer {
+  background: url("/images/bg.jpg");
+  padding: 10px 0;
+}
+
+#footer-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+
+#footer-container img {
+  width: 100px;
+}
+
+#footer-container p {
+  color: #C78C19;
+}

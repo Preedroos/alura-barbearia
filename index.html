@@ -6,21 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbearia Alura</title>
 
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
     <header>
-      <h1>Barbearia Alura</h1>
+      <div id="header-container">
+        <h1>
+          <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
     <main>
       <img id="banner" src="images/banner.jpg" alt="" />
       <section id="apresentacao">
         <h2>Sobre a Barbearia Alura</h2>
         <p>
-          Localizada no coração da cidade a Barbearia Alura traz para o mercado
-          o que há de melhor para o seu cabelo e barba. Fundada em 2019, a
-          Barbearia Alura já é destaque na cidade e conquista novos clientes a
-          cada dia.
+          Localizada no coração da cidade a
+          <strong>Barbearia Alura</strong> traz para o mercado o que há de
+          melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura
+          já é destaque na cidade e conquista novos clientes a cada dia.
         </p>
         <p id="missao">
           Nossa missão é:
@@ -47,5 +62,12 @@
         </div>
       </section>
     </main>
+
+    <footer>
+      <div id="footer-container">
+        <img src="/images/logo-branco.png" alt="" />
+        <p>&copy; Pedro Cabral - 2022</p>
+      </div>
+    </footer>
   </body>
 </html>
