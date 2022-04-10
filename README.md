@@ -1,1 +1,2 @@
-https://user-images.githubusercontent.com/69660117/162642384-48b93bdd-5d10-4aea-8f5d-99413ca6350b.mp4
+[Barbearia Alura.pdf](https://github.com/Preedroos/barbearia-alura/files/8460055/Barbearia.Alura.pdf)
+[Barbearia Alura - Produtos.pdf](https://github.com/Preedroos/barbearia-alura/files/8460056/Barbearia.Alura.-.Produtos.pdf)
