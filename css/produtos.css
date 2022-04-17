@@ -18,17 +18,10 @@ main li {
   transition: 0.1s;
   margin: 20px 0;
   box-sizing: border-box;
-  color: #fff;
 }
 
 main li:hover {
-  color: #000;
   border-color: #c78c19;
-}
-
-main li:active {
-  transition: 0s;
-  color: #c78c19;
 }
 
 main li:hover img {

@@ -1,0 +1,79 @@
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin: 30px auto;
+}
+
+label {
+  display: inline;
+}
+
+input {
+  margin: 10px 0;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+  margin: 10px 0;
+  border: 1px solid #CCC;
+  border-radius: 10px;
+}
+
+#horario {
+  margin: 10px auto;
+}
+
+#horario-select {
+  margin-top: 5px; 
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+#submit {
+  color: #C78C19;
+  background-color: #FFF;
+  border: 1px solid #C78C19;
+  transition: all .1s;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase
+}
+
+#submit:hover {
+  background-color: rgba(218, 194, 149, 0.705);
+  color: #FFF;
+  transform: scale(1.1);
+}
+
+table {
+  margin: 40px auto;
+  width: 40%;
+  border: 1px solid rgb(134, 134, 134);
+}
+
+thead {
+  background-color: #000;
+  color: #FFF;
+  font-weight: bold;
+}
+
+tbody {
+  background-color: #CCC;
+  text-align: center;
+}
+
+th, td {
+  padding: 5px;
+}
+
+td {
+  border: 1px solid rgb(134, 134, 134);
+}
