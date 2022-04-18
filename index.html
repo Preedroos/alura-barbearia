@@ -6,18 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barbearia Alura</title>
 
+    <!--CSS-->
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/all.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/footer.css" />
+
+    <!--FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <div id="header-container">
+      <div id="header-div">
         <h1>
-          <a href="index.html"><img src="images/logo.png" alt="Logo da Barbearia Alura" /></a>
+          <a href="index.html"
+            ><img id="logo" src="images/logo.png" alt="Logo da Barbearia Alura"
+          /></a>
         </h1>
-        <nav>
+        <nav id="header-nav">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="produtos.html">Produtos</a></li>
@@ -27,10 +37,12 @@
       </div>
     </header>
 
+    <img id="banner" src="images/banner.jpg" alt="" />
+
     <main>
-      <img id="banner" src="images/banner.jpg" alt="" />
       <section id="apresentacao">
         <h2>Sobre a Barbearia Alura</h2>
+        <img src="images/utensilios.jpg" alt="utensilios do cabeleireiro" />
         <p>
           Localizada no coração da cidade a
           <strong>Barbearia Alura</strong> traz para o mercado o que há de
@@ -40,7 +52,9 @@
         <p id="missao">
           Nossa missão é:
           <strong>
-            "Proporcionar auto-estima e qualidade de vida aos clientes" </strong
+            <em
+              >"Proporcionar auto-estima e qualidade de vida aos clientes"</em
+            > </strong
           >.
         </p>
         <p>
@@ -49,17 +63,43 @@
           garantindo qualidade e satisfação dos nossos clientes.
         </p>
       </section>
+
+      <section id="localizacao">
+        <h3>Nosso Estabelecimento</h3>
+        <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29251.275787931947!2d-46.647048914426534!3d-23.58964338748682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Education%20and%20Innovation!5e0!3m2!1sen!2sbr!4v1650248066316!5m2!1sen!2sbr"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
       <section id="beneficios">
-        <h2>Benefícios</h2>
+        <h3>Benefícios</h3>
         <div>
           <ul id="beneficios-list">
             <li>Atendimento aos Clientes</li>
             <li>Espaço Diferenciado</li>
             <li>Localização</li>
             <li>Profissionais Qualificados</li>
+            <li>Pontualidade</li>
+            <li>Limpeza</li>
           </ul>
           <img src="images/beneficios.jpg" alt="" />
         </div>
+      </section>
+
+      <section id="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/wcVVXUV0YUY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </section>
     </main>
 
