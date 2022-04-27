@@ -49,3 +49,15 @@ header {
     text-align: center;
   }
 }
+
+@media (max-width: 426px) {
+  #header-div {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #header-nav {
+    margin: 0 auto 20px;
+  }
+}
